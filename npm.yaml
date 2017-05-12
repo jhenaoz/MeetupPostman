@@ -1,0 +1,8 @@
+name: npm
+type: docker
+imagename: devdocker.mulesoft.com:18078/node-rsync:6.9
+operations:
+  build:
+    command: npm install
+  test:
+    command: npm test
