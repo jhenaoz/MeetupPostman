@@ -28,7 +28,7 @@
 			"time": 1485475880810,
 			"version": 2,
 			"responses": [],
-			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 800;\ntests[\"Status code is 200\"] = responseCode.code === 200;",
+			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 10;\ntests[\"Status code is 200\"] = responseCode.code === 200;",
 			"currentHelper": "normal",
 			"helperAttributes": {}
 		},
