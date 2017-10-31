@@ -8,3 +8,6 @@ jobs:
     - stage: test
       script: npm test
       script: npm test
+      script: node --version
+    - stage: repeat test
+      script: npm test
