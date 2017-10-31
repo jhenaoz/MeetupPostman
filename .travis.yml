@@ -7,3 +7,4 @@ jobs:
   include:
     - stage: test
       script: npm test
+      script: npm test
